@@ -1,0 +1,28 @@
+body {
+	font-family: Ubuntu, Verdana, Arial;
+	font-size: 12px;
+	line-height: 2;
+}
+small {
+	color: #777;
+}
+small span {
+	font-weight: bold;
+	color: green;
+}
+#primeira_tela {
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -250px;
+	position: absolute;
+}
+#interna h1, #nav{
+	text-align: center;
+}
+#interna p {
+	padding-left: 20%;
+}

@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>jQuery User Interaface e ShortCut</title>
+		<link type="text/css" href="inc/css.css" rel="stylesheet" />	
+		<link type="text/css" href="inc/jqueryui/jqueryui.css" rel="stylesheet" />	
+		<link type="text/css" href="inc/jqueryui/css/redmond/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="inc/jqueryui/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="inc/jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src="inc/shortcut.js"></script>
+		<script type="text/javascript">
+			shortcut.add("left",function(){
+				document.location.href='index2.html';
+			});
+			shortcut.add("right",function(){
+				document.location.href='index4.html';
+			});
+			shortcut.add("l",function(){
+				document.location.href='http://creativecommons.org/licenses/by-nc-sa/3.0/';
+			});
+			shortcut.add("a",function(){
+				document.location.href='http://paico.com.br/';
+			});
+			shortcut.add("c",function(){
+				document.location.href='https://github.com/paico/Apresenta--o-jQueryUI-e-ShortCut';
+			});
+		</script>
+	</head>
+	<body>
+		<div id="interna">
+			<h1>jQueryUI</h1>
+			<ul>
+				<li><b>jQuery: </b>www.jquery.com - biblioteca javascript</li>
+				<li>AJAX... Gmail... frameworks... bibliotecas...</li>
+				<li><b>jQueryUI: </b>www.jqueryui.com</li>
+				<li><code>.demoHeaders { margin-top: 2em; }<br>
+			#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;} <br>
+			#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;} <br>
+			ul#icons {margin: 0; padding: 0;} <br>
+			ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;} <br>
+			ul#icons span.ui-icon {float: left; margin: 0 4px; }</code></li>
+			</ul>
+			<div id="nav">
+				<a href="index2.html" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-circle-arrow-w"></span>Anterior</a>
+				<a href="index4.html" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-circle-arrow-e"></span>Pr&oacute;ximo</a><br><br>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br><br>
+				<small><b>Atalhos:</b> [<span>left</span>] anterior | [<span>right</span>] pr&oacute;ximo | [<span>L</span>] licen&ccedil;a de uso | [<span>A</span>] autor | [<span>C</span>] c&oacute;digos-fonte desta apresenta&ccedil;&atilde;o</small>
+			</div>
+		</div>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	</body>
+</html>

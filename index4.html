@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>jQuery User Interaface e ShortCut</title>
+		<link type="text/css" href="inc/css.css" rel="stylesheet" />	
+		<link type="text/css" href="inc/jqueryui/jqueryui.css" rel="stylesheet" />	
+		<link type="text/css" href="inc/jqueryui/css/redmond/jquery-ui-1.8.18.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="inc/jqueryui/js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="inc/jqueryui/js/jquery-ui-1.8.18.custom.min.js"></script>
+		<script type="text/javascript" src="inc/shortcut.js"></script>
+		<script type="text/javascript">
+			shortcut.add("left",function(){
+				document.location.href='index3.html';
+			});
+			shortcut.add("right",function(){
+				document.location.href='index5.html';
+			});
+			shortcut.add("l",function(){
+				document.location.href='http://creativecommons.org/licenses/by-nc-sa/3.0/';
+			});
+			shortcut.add("a",function(){
+				document.location.href='http://paico.com.br/';
+			});
+			shortcut.add("c",function(){
+				document.location.href='https://github.com/paico/Apresenta--o-jQueryUI-e-ShortCut';
+			});
+		</script>
+	</head>
+	<body>
+		<div id="interna">
+			<h1>Teclas de atalho</h1>
+			<ul>
+				<li><b>shortcut.js: </b>solu&ccedil;&atilde;o em javascript;</li>
+				<li><b>jQuery: </b><a href="http://goo.gl/oanHh" target="_blank">http://goo.gl/oanHh</a></li>
+			</ul>
+			<div id="nav">
+				<a href="index3.html" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-circle-arrow-w"></span>Anterior</a>
+				<a href="index5.html" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-circle-arrow-e"></span>Pr&oacute;ximo</a><br><br>
+				<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a><br><br>
+				<small><b>Atalhos:</b> [<span>left</span>] anterior | [<span>right</span>] pr&oacute;ximo | [<span>L</span>] licen&ccedil;a de uso | [<span>A</span>] autor | [<span>C</span>] c&oacute;digos-fonte desta apresenta&ccedil;&atilde;o</small>
+			</div>
+		</div>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	</body>
+</html>
